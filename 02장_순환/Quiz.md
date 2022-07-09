@@ -1,5 +1,5 @@
 <details>
-    <summary>P.50</summary>
+    <summary>p.50</summary>
   
 1. 다음과 같은 함수를 sub(10)으로 호출하는 경우에 어떤 값이 반환되는가? **(22)**
 ```
@@ -31,7 +31,7 @@ for (int i = 10; i >= 0; i -= 3)
 </details>
   
 <details>
-    <summary>P.56</summary>
+    <summary>p.56</summary>
   
 ```
 int fib(int n){
@@ -54,7 +54,7 @@ int fib(int n){
 </details>
   
 <details>
-    <summary>P.62</summary>
+    <summary>p.62</summary>
   
 1. 순환을 사용하는 방법에 대한 설명 중 잘못된 것은? **②**<br>
 ① 순환적으로 정의된 문제에 적합하다. <br>
