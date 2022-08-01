@@ -31,6 +31,33 @@ for (int i = 10; i >= 0; i -= 3)
 </details>
   
 <details>
+    <summary>p.53</summary>
+  
+1. power(2,6)과 같이 호출하였을 경우에 호출 체인을 그리시오.
+```
+power(2,6)
+power(4,3)
+4 * power(16,1)
+4 * 16 * power(256,0)
+4 * 16 * 1
+4 * 16
+64
+```
+
+2. 거듭 제곱값을 계산하는 함수를 다음의 순환적인 정의를 이용하여 작성하면 실행 시간이 줄어드는가? **Yes**
+```
+x^n = 1          (if n = 0)
+      x*x^(n-1)  (if n > 0)
+```
+```
+순환 코드와 반복 코드의 차이
+```
+순환 : https://github.com/abbiddo/DataStructure_C/blob/main/02%EC%9E%A5_%EC%88%9C%ED%99%98/Code/05.power_recur.c <br>
+반복 : https://github.com/abbiddo/DataStructure_C/blob/main/02%EC%9E%A5_%EC%88%9C%ED%99%98/Code/04.power_iter.c
+  
+</details>
+
+<details>
     <summary>p.56</summary>
   
 ```
