@@ -1,13 +1,15 @@
 /**
-P. 41 (2.1) 
-팩토리얼 순환 코드
+P. 48 (2.3) 
+팩토리얼 반복 코드
 **/
 
 #include <stdio.h>
 
 int factorial(int n) {
-  if (n <= 1) return 1;
-  return n * factorial(n - 1);
+  int result = 1;
+  for (int i = 1; i <= n; i++) result *= i;
+  
+  return result;
 }
 
 int main() {
